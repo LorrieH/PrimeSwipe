@@ -19,7 +19,5 @@ public class ResetField : MonoBehaviour {
     void OnMouseDown()
     {
         TileReset = true;
-
-        TileReset = false;
     }
 }
