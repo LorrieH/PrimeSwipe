@@ -4,44 +4,44 @@ using UnityEngine;
 
 public class Swiping : MonoBehaviour {
 
-    SwipeManager swipeManager;
+    SwipeManager _swipeManager;
 
     void Start()
     {
-        swipeManager = GetComponent<SwipeManager>();
+        _swipeManager = GetComponent<SwipeManager>();
     }
 
 	void Update () {
-        if (swipeManager.IsSwiping(SwipeDirection.Up)){
-            Debug.Log("Swipe Up");
+        if (_swipeManager.IsSwiping(SwipeDirection.Up)){
+            //Debug.Log("Swipe Up");
         }
-        if (swipeManager.IsSwiping(SwipeDirection.Down))
+        if (_swipeManager.IsSwiping(SwipeDirection.Down))
         {
-            Debug.Log("Swipe Down");
+            //Debug.Log("Swipe Down");
         }
-        if (swipeManager.IsSwiping(SwipeDirection.Left))
+        if (_swipeManager.IsSwiping(SwipeDirection.Left))
         {
-            Debug.Log("Swipe Left");
+            //Debug.Log("Swipe Left");
         }
-        if (swipeManager.IsSwiping(SwipeDirection.Right))
+        if (_swipeManager.IsSwiping(SwipeDirection.Right))
         {
-            Debug.Log("Swipe Right");
+            //Debug.Log("Swipe Right");
         }
-        if (swipeManager.IsSwiping(SwipeDirection.LeftUp))
+        if (_swipeManager.IsSwiping(SwipeDirection.LeftUp))
         {
-            Debug.Log("Swipe LeftUp");
+            //Debug.Log("Swipe LeftUp");
         }
-        if (swipeManager.IsSwiping(SwipeDirection.RightUp))
+        if (_swipeManager.IsSwiping(SwipeDirection.RightUp))
         {
-            Debug.Log("Swipe RightUp");
+            //Debug.Log("Swipe RightUp");
         }
-        if (swipeManager.IsSwiping(SwipeDirection.LeftDown))
+        if (_swipeManager.IsSwiping(SwipeDirection.LeftDown))
         {
-            Debug.Log("Swipe LeftDown");
+            //Debug.Log("Swipe LeftDown");
         }
-        if (swipeManager.IsSwiping(SwipeDirection.RightDown))
+        if (_swipeManager.IsSwiping(SwipeDirection.RightDown))
         {
-            Debug.Log("Swipe RightDown");
+            //Debug.Log("Swipe RightDown");
         }
     }
 }
