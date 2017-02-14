@@ -38,6 +38,10 @@ public class ShapeSpawner : MonoBehaviour {
             SpawnNew();
             _AllreadyFilled = true;
         }
+        if (transform.childCount == 0)
+        {
+            _AllreadyFilled = false;
+        }
 	}
 
     private void SpawnNew()
@@ -46,6 +50,6 @@ public class ShapeSpawner : MonoBehaviour {
 
         _shapeSpawned = _shapes[_shape];
 
-        Instantiate(_shapeSpawned, this.transform.position, _shapeSpawned.transform.rotation);
+        Instantiate(_shapeSpawned, this.transform.position, _shapeSpawned.transform.rotation).transform.parent = gameObject.transform;
     }
 }
