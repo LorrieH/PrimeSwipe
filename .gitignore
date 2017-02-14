@@ -28,3 +28,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.log
+*.xml
+CandyCrush2/Library/UnityAssemblies/UnityEngine.Networking.xml
+CandyCrush2/Library/assetDatabase3
+CandyCrush2/Temp/UnityLockfile
