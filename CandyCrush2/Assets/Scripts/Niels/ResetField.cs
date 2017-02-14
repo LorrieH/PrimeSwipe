@@ -6,19 +6,15 @@ public class ResetField : MonoBehaviour {
 
     public bool TileReset = false;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        Debug.Log(TileReset); 
-	}
-
     void OnMouseDown()
     {
+        StartCoroutine(ResetTime());
+    }
+
+    IEnumerator ResetTime() {
         TileReset = true;
+
+        yield return new WaitForEndOfFrame();
 
         TileReset = false;
     }

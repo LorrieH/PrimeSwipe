@@ -4,13 +4,6 @@ using UnityEngine;
 
 public class ShapeSpawner : MonoBehaviour {
 
-    private ResetField _reset;
-
-    [SerializeField]
-    private GameObject _resetButton;
-
-    private bool _resetTile;
-
     private int _shape;
 
     private GameObject _shape1;
@@ -25,7 +18,6 @@ public class ShapeSpawner : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        _reset = _resetButton.GetComponent<ResetField>();
 
         _shape1 = Resources.Load<GameObject>("Shape1");
         _shape2 = Resources.Load<GameObject>("Shape2");
@@ -41,13 +33,12 @@ public class ShapeSpawner : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        _resetTile = _reset.TileReset;
-
         if (_AllreadyFilled == false)
         {
             SpawnNew();
             _AllreadyFilled = true;
-        } else if (_resetTile == true)
+        }
+        if (transform.childCount == 0)
         {
             _AllreadyFilled = false;
         }
@@ -59,6 +50,6 @@ public class ShapeSpawner : MonoBehaviour {
 
         _shapeSpawned = _shapes[_shape];
 
-        Instantiate(_shapeSpawned, this.transform.position, _shapeSpawned.transform.rotation);
+        Instantiate(_shapeSpawned, this.transform.position, _shapeSpawned.transform.rotation).transform.parent = gameObject.transform;
     }
 }
