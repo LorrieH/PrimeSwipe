@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ShapeSpawner : MonoBehaviour {
 
-    private Vector3 _BoxPos;
     private int _Shape;
 
     private GameObject _Shape1;
