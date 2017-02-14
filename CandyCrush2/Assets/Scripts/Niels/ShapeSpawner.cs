@@ -49,7 +49,6 @@ public class ShapeSpawner : MonoBehaviour {
             _AllreadyFilled = true;
         } else if (_resetTile == true)
         {
-            //DestroyImmediate(_shapeSpawned, true);
             _AllreadyFilled = false;
         }
 	}
