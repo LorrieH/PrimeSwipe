@@ -4,42 +4,62 @@ using UnityEngine;
 
 public class ShapeSpawner : MonoBehaviour {
 
-    private int _Shape;
+    private ResetField _reset;
 
-    private GameObject _Shape1;
-    private GameObject _Shape2;
-    private GameObject _Shape3;
+    [SerializeField]
+    private GameObject _resetButton;
 
-    private List<GameObject> _Shapes;
+    private bool _resetTile;
+
+    private int _shape;
+
+    private GameObject _shape1;
+    private GameObject _shape2;
+    private GameObject _shape3;
+
+    private List<GameObject> _shapes;
 
     private bool _AllreadyFilled = false;
 
+    private GameObject _shapeSpawned;
+
     // Use this for initialization
     void Start () {
-        _Shape1 = Resources.Load<GameObject>("Shape1");
-        _Shape2 = Resources.Load<GameObject>("Shape2");
-        _Shape3 = Resources.Load<GameObject>("Shape3");
+        _reset = _resetButton.GetComponent<ResetField>();
 
-        _Shapes = new List<GameObject>();
+        _shape1 = Resources.Load<GameObject>("Shape1");
+        _shape2 = Resources.Load<GameObject>("Shape2");
+        _shape3 = Resources.Load<GameObject>("Shape3");
 
-        _Shapes.Add(_Shape1);
-        _Shapes.Add(_Shape2);
-        _Shapes.Add(_Shape3);
+        _shapes = new List<GameObject>();
+
+        _shapes.Add(_shape1);
+        _shapes.Add(_shape2);
+        _shapes.Add(_shape3);
 
     }
 	
 	// Update is called once per frame
 	void Update () {
+        _resetTile = _reset.TileReset;
+
         if (_AllreadyFilled == false)
         {
             SpawnNew();
             _AllreadyFilled = true;
+        } else if (_resetTile == true)
+        {
+            DestroyImmediate(_shapeSpawned, true);
+            _AllreadyFilled = false;
         }
 	}
 
     private void SpawnNew()
     {
-        _Shape = Random.Range(0, 3);
-        Instantiate(_Shapes[_Shape], this.transform.position, _Shapes[_Shape].transform.rotation);
+        _shape = Random.Range(0, 3);
+
+        _shapeSpawned = _shapes[_shape];
+
+        Instantiate(_shapeSpawned, this.transform.position, _shapeSpawned.transform.rotation);
     }
 }
