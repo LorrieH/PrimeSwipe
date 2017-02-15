@@ -1,0 +1,358 @@
+fileFormatVersion: 2
+guid: 1d7314fa5a0c3344b850141fd13914a0
+timeCreated: 1487162709
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Square_Shape_Spawn_SpriteSheet_0
+    21300002: Square_Shape_Spawn_SpriteSheet_1
+    21300004: Square_Shape_Spawn_SpriteSheet_2
+    21300006: Square_Shape_Spawn_SpriteSheet_3
+    21300008: Square_Shape_Spawn_SpriteSheet_4
+    21300010: Square_Shape_Spawn_SpriteSheet_5
+    21300012: Square_Shape_Spawn_SpriteSheet_6
+    21300014: Square_Shape_Spawn_SpriteSheet_7
+    21300016: Square_Shape_Spawn_SpriteSheet_8
+    21300018: Square_Shape_Spawn_SpriteSheet_9
+    21300020: Square_Shape_Spawn_SpriteSheet_10
+    21300022: Square_Shape_Spawn_SpriteSheet_11
+    21300024: Square_Shape_Spawn_SpriteSheet_12
+    21300026: Square_Shape_Spawn_SpriteSheet_13
+    21300028: Square_Shape_Spawn_SpriteSheet_14
+    21300030: Square_Shape_Spawn_SpriteSheet_15
+    21300032: Square_Shape_Spawn_SpriteSheet_16
+    21300034: Square_Shape_Spawn_SpriteSheet_17
+    21300036: Square_Shape_Spawn_SpriteSheet_18
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 3719
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 3705
+        width: 132
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 3685
+        width: 171
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 3656
+        width: 232
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 3533
+        y: 3619
+        width: 307
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2903
+        width: 394
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 2853
+        width: 491
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 2807
+        width: 582
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 2768
+        width: 659
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 2776
+        width: 643
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 2789
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2135
+        width: 585
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 2161
+        width: 531
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 2191
+        width: 474
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 2215
+        width: 425
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 2207
+        width: 440
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 2191
+        width: 467
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1496
+        width: 512
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Square_Shape_Spawn_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1475
+        width: 556
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
