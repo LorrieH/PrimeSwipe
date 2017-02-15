@@ -91,16 +91,22 @@ public class SwipeManager : MonoBehaviour {
                     }
                 }
                 _comboStart = null;
-                if (_comboObjects.Count >= 3)
-                {
-                    for (int i = 0; i < _comboObjects.Count; i++)
-                    {
-                        Destroy(_comboObjects[i].gameObject);
-                    }
-                    ClearCombo();
-                }
+                ComboCheck();
             }
            
+        }
+    }
+
+    private void ComboCheck()
+    {
+        if (_comboObjects.Count >= 3)
+        {
+            for (int i = 0; i < _comboObjects.Count; i++)
+            {
+                Destroy(_comboObjects[i].gameObject);
+                Score.score = Score.score + (100 * GridCells.Count);
+            }
+            ClearCombo();
         }
     }
 
