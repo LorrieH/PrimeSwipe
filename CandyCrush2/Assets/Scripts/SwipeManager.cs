@@ -134,7 +134,7 @@ public class SwipeManager : MonoBehaviour {
                 _onDestroy.OnDestroyShape();
             }
             Debug.Log("help");
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(1);
 
             for (int i = 0; i < comboWithoutDupes.Count; i++)
             {
