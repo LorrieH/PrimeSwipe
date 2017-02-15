@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿using System.Collections; //cash me ousside howbow dah
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,13 +18,10 @@ public enum SwipeDirection
 
 public class SwipeManager : MonoBehaviour {
 
-    public SwipeDirection Direction { set; get; }
-
-    private Vector3 _touchPosition;
-    private float _swipeResistanceX = 20;
-    private float _swipeResistanceY = 20;
     public GameObject obj;
     public List<GameObject> GridCells = new List<GameObject>();
+    private GameObject _comboStart;
+    private List<GameObject> _comboObjects = new List<GameObject>();
 
     private void InstantiateObj(int index)
     {
@@ -42,77 +39,75 @@ public class SwipeManager : MonoBehaviour {
             {
                 if (GridCells[GridCells.Count - 1].gameObject != hit.transform.gameObject)
                 {
-                    Debug.Log("object hit: " + hit.transform.gameObject);
                     GridCells.Add(hit.transform.gameObject);
-                    Debug.Log("grid count" + GridCells.Count);
                 }
 
             } else if (GridCells.Count == 0)
             {
                 GridCells.Add(hit.transform.gameObject);
-                Debug.Log("object hit: " + hit.transform.gameObject);
             }
-
-
-            /*if(GridCells[0] == null)
-            {
-                GridCells.Add(hit.transform.gameObject);
-                InstantiateObj(0);
-                //Debug.Log(GridCells[0].gameObject);
-            }
-            else if(GridCells[1] == null)
-            {
-                GridCells.Add(hit.transform.gameObject);
-                InstantiateObj(1);
-                //Debug.Log(GridCells[1].gameObject);
-            }
-            else
-            {
-                for(int i = 0; i < GridCells.Count; i++)
-                {
-                    GridCells[i] = null;
-                }
-                GridCells[0] = hit.transform.gameObject;
-                InstantiateObj(0);
-                //Debug.Log(GridCells[0].gameObject);
-            }*/
         }
     }
 
     private void Update()
     {
-        Direction = SwipeDirection.None;
-
         if (Input.GetMouseButton(0))
         {
             Raycast();
         }
-        if (Input.GetMouseButtonDown(0))
-        {
-            _touchPosition = Input.mousePosition;
-            //Raycast();  
-        }
         if (Input.GetMouseButtonUp(0))
         {
-            Vector2 deltaSwipe = _touchPosition - Input.mousePosition;
-
-            if (Mathf.Abs(deltaSwipe.x) > _swipeResistanceX)
+            if (GridCells.Count <= 1)
             {
-                //swipe on x axis
-                Direction |= (deltaSwipe.x < 0) ? SwipeDirection.Right : SwipeDirection.Left;
-            }
-            if (Mathf.Abs(deltaSwipe.y) > _swipeResistanceY)
+                GridCells.Clear();
+            } else
             {
-                //swipe on y axis
-                Direction |= (deltaSwipe.y < 0) ? SwipeDirection.Up : SwipeDirection.Down;
+                for (int i = 0; i < GridCells.Count; i++)
+                {
+                    if (_comboStart != null)
+                    {
+                        if (_comboObjects.Count >= 1)
+                        {
+                            if (GridCells[i].gameObject.transform.GetChild(0).gameObject.tag != _comboStart.tag)
+                            {
+                                Debug.Log("Awh, you did not make a combo");
+                                ClearCombo();
+                                break;
+                            }
+                            else
+                            {
+                                Debug.Log("Good job, you made a combo ( ͡° ͜ʖ ͡°)");
+                                _comboObjects.Add(GridCells[i].gameObject.transform.GetChild(0).gameObject);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        _comboStart = GridCells[i].gameObject.transform.GetChild(0).gameObject;
+                        if (_comboObjects.Count == 0)
+                        {
+                            _comboObjects.Add(_comboStart);
+                        }
+                    }
+                }
+                _comboStart = null;
+                if (_comboObjects.Count >= 3)
+                {
+                    for (int i = 0; i < _comboObjects.Count; i++)
+                    {
+                        Destroy(_comboObjects[i].gameObject);
+                    }
+                    ClearCombo();
+                }
             }
-
-            //Raycast();
+           
         }
     }
 
-    public bool IsSwiping(SwipeDirection dir)
+    private void ClearCombo()
     {
-        return (Direction & dir) == dir;
+        _comboObjects.Clear();
+        GridCells.Clear();
+        _comboStart = null;
     }
 }
