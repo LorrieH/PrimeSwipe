@@ -14,7 +14,7 @@ public class OndestroyShape : MonoBehaviour {
         _anim = GetComponent<Animator>();
     }
 
-    void OnDestroy() {
+    public void OnDestroyShape() {
         _anim.SetTrigger("death");
         //StartCoroutine(Wait());
     }

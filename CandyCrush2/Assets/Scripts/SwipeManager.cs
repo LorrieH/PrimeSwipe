@@ -108,19 +108,11 @@ public class SwipeManager : MonoBehaviour {
         }
     }
 
+    private OndestroyShape _onDestroy;
+
     private void ComboCheck()
     {
-        List<GameObject> comboWithoutDupes = new HashSet<GameObject>(_comboObjects).ToList();
-
-        if (comboWithoutDupes.Count >= 3)
-        {
-            for (int i = 0; i < comboWithoutDupes.Count; i++)
-            {
-                Destroy(comboWithoutDupes[i].gameObject);
-                Score.score = Score.score + (100 * comboWithoutDupes.Count);
-            }
-            ClearCombo();
-        }
+        StartCoroutine(WaitForDestroy());
     }
 
     private void ClearCombo()
@@ -128,5 +120,28 @@ public class SwipeManager : MonoBehaviour {
         _comboObjects.Clear();
         GridCells.Clear();
         _comboStart = null;
+    }
+
+    IEnumerator WaitForDestroy() {
+        List<GameObject> comboWithoutDupes = new HashSet<GameObject>(_comboObjects).ToList();
+
+        if (comboWithoutDupes.Count >= 3)
+        {
+            for (int i = 0; i < comboWithoutDupes.Count; i++)
+            {
+                _onDestroy = comboWithoutDupes[i].gameObject.GetComponent<OndestroyShape>();
+
+                _onDestroy.OnDestroyShape();
+            }
+            Debug.Log("help");
+            yield return new WaitForSeconds(2);
+
+            for (int i = 0; i < comboWithoutDupes.Count; i++)
+            {
+                Destroy(comboWithoutDupes[i].gameObject);
+                Score.score = Score.score + (100 * comboWithoutDupes.Count);
+            }
+            ClearCombo();
+        }
     }
 }
