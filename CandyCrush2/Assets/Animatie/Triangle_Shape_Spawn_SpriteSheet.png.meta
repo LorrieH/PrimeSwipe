@@ -1,0 +1,358 @@
+fileFormatVersion: 2
+guid: 77e035c12180d2e43bd3913b3f0631e3
+timeCreated: 1487154102
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Triangle_Shape_Spawn_SpriteSheet_0
+    21300002: Triangle_Shape_Spawn_SpriteSheet_1
+    21300004: Triangle_Shape_Spawn_SpriteSheet_2
+    21300006: Triangle_Shape_Spawn_SpriteSheet_3
+    21300008: Triangle_Shape_Spawn_SpriteSheet_4
+    21300010: Triangle_Shape_Spawn_SpriteSheet_5
+    21300012: Triangle_Shape_Spawn_SpriteSheet_6
+    21300014: Triangle_Shape_Spawn_SpriteSheet_7
+    21300016: Triangle_Shape_Spawn_SpriteSheet_8
+    21300018: Triangle_Shape_Spawn_SpriteSheet_9
+    21300020: Triangle_Shape_Spawn_SpriteSheet_10
+    21300022: Triangle_Shape_Spawn_SpriteSheet_11
+    21300024: Triangle_Shape_Spawn_SpriteSheet_12
+    21300026: Triangle_Shape_Spawn_SpriteSheet_13
+    21300028: Triangle_Shape_Spawn_SpriteSheet_14
+    21300030: Triangle_Shape_Spawn_SpriteSheet_15
+    21300032: Triangle_Shape_Spawn_SpriteSheet_16
+    21300034: Triangle_Shape_Spawn_SpriteSheet_17
+    21300036: Triangle_Shape_Spawn_SpriteSheet_18
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 3758
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 3731
+        width: 154
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 3703
+        width: 211
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 3675
+        width: 264
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 3647
+        width: 322
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 3021
+        width: 376
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 2991
+        width: 428
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 2967
+        width: 484
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 2936
+        width: 540
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 2911
+        width: 593
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 3055
+        y: 2935
+        width: 546
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2357
+        width: 499
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 2381
+        width: 456
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 2405
+        width: 409
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 2424
+        width: 357
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 2413
+        width: 384
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 2399
+        width: 414
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1784
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Triangle_Shape_Spawn_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1768
+        width: 470
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

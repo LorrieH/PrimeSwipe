@@ -13,9 +13,9 @@ public class ResetField : MonoBehaviour {
 
     IEnumerator ResetTime() {
         TileReset = true;
-
+        this.transform.localScale += new Vector3(-0.1F, -0.1F, 0);
         yield return new WaitForEndOfFrame();
-
+        this.transform.localScale += new Vector3(0.1f, 0.1F, 0);
         TileReset = false;
     }
 }

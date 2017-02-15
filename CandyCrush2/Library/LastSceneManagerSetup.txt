@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Lorenzo.unity
+- path: Assets/Scenes/Niels.unity
   isLoaded: 1
   isActive: 1
