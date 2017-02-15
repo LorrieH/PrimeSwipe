@@ -1,9 +1,25 @@
 fileFormatVersion: 2
 guid: 1dcbd6d1da725904d94b7a173325fa7c
-timeCreated: 1487162618
+timeCreated: 1487170236
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Spritescheet_Respawn_0
+    21300002: Spritescheet_Respawn_1
+    21300004: Spritescheet_Respawn_2
+    21300006: Spritescheet_Respawn_3
+    21300008: Spritescheet_Respawn_4
+    21300010: Spritescheet_Respawn_5
+    21300012: Spritescheet_Respawn_6
+    21300014: Spritescheet_Respawn_7
+    21300016: Spritescheet_Respawn_8
+    21300018: Spritescheet_Respawn_9
+    21300020: Spritescheet_Respawn_10
+    21300022: Spritescheet_Respawn_11
+    21300024: Spritescheet_Respawn_12
+    21300026: Spritescheet_Respawn_13
+    21300028: Spritescheet_Respawn_14
+    21300030: Spritescheet_Respawn_15
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +50,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +74,241 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Spritescheet_Respawn_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1590
+        width: 402
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spritescheet_Respawn_1
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1588
+        width: 409
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spritescheet_Respawn_2
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1584
+        width: 413
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spritescheet_Respawn_3
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1583
+        width: 419
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spritescheet_Respawn_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1090
+        width: 388
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spritescheet_Respawn_5
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1104
+        width: 358
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spritescheet_Respawn_6
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1119
+        width: 329
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spritescheet_Respawn_7
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1135
+        width: 300
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spritescheet_Respawn_8
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 643
+        width: 268
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spritescheet_Respawn_9
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 658
+        width: 238
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spritescheet_Respawn_10
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 674
+        width: 206
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spritescheet_Respawn_11
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 689
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spritescheet_Respawn_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 197
+        width: 145
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spritescheet_Respawn_13
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 213
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spritescheet_Respawn_14
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 228
+        width: 83
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spritescheet_Respawn_15
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 243
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
