@@ -57,7 +57,7 @@ public class SwipeManager : MonoBehaviour {
         }
         if (Input.GetMouseButtonUp(0))
         {
-            if (GridCells.Count <= 1)
+            if (GridCells.Count <= 2)
             {
                 GridCells.Clear();
             } else
