@@ -1,6 +1,7 @@
 ﻿using System.Collections; //cash me ousside howbow dah
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public enum SwipeDirection
 {
@@ -37,9 +38,19 @@ public class SwipeManager : MonoBehaviour {
         {
             if (GridCells.Count != 0)
             {
-                if (GridCells[GridCells.Count - 1].gameObject != hit.transform.gameObject)
+                if (GridCells[GridCells.Count -1].gameObject != hit.transform.gameObject)
                 {
-                    GridCells.Add(hit.transform.gameObject);
+                    for (int i = 0; i < GridCells.Count; i++)
+                    {
+                        if(GridCells[i].gameObject == hit.transform.gameObject)
+                        {
+                            break;
+                        }
+                        else
+                        {
+                            GridCells.Add(hit.transform.gameObject);
+                        }
+                    }
                 }
 
             } else if (GridCells.Count == 0)
@@ -76,7 +87,7 @@ public class SwipeManager : MonoBehaviour {
                             }
                             else
                             {
-                                Debug.Log("Good job, you made a combo ( ͡° ͜ʖ ͡°)");
+                                Debug.Log("Good job, you made a combo ( ͡° ͜ʖ ͡°)");                          
                                 _comboObjects.Add(GridCells[i].gameObject.transform.GetChild(0).gameObject);
                             }
                         }
@@ -99,12 +110,14 @@ public class SwipeManager : MonoBehaviour {
 
     private void ComboCheck()
     {
-        if (_comboObjects.Count >= 3)
+        List<GameObject> comboWithoutDupes = new HashSet<GameObject>(_comboObjects).ToList();
+
+        if (comboWithoutDupes.Count >= 3)
         {
-            for (int i = 0; i < _comboObjects.Count; i++)
+            for (int i = 0; i < comboWithoutDupes.Count; i++)
             {
-                Destroy(_comboObjects[i].gameObject);
-                Score.score = Score.score + (100 * GridCells.Count);
+                Destroy(comboWithoutDupes[i].gameObject);
+                Score.score = Score.score + (100 * comboWithoutDupes.Count);
             }
             ClearCombo();
         }
