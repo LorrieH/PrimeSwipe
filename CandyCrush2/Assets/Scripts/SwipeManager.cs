@@ -23,6 +23,7 @@ public class SwipeManager : MonoBehaviour {
     public List<GameObject> GridCells = new List<GameObject>();
     private GameObject _comboStart;
     private List<GameObject> _comboObjects = new List<GameObject>();
+    private List<GameObject> _comboWithoutDupes;
 
     private void InstantiateObj(int index)
     {
@@ -40,15 +41,20 @@ public class SwipeManager : MonoBehaviour {
             {
                 if (GridCells[GridCells.Count -1].gameObject != hit.transform.gameObject)
                 {
+                    int number = 0;
                     for (int i = 0; i < GridCells.Count; i++)
                     {
-                        if(GridCells[i].gameObject == hit.transform.gameObject)
+                        if(number < 1)
                         {
-                            break;
-                        }
-                        else
-                        {
-                            GridCells.Add(hit.transform.gameObject);
+                            if (GridCells[i].gameObject == hit.transform.gameObject)
+                            {
+                                break;
+                            }
+                            else
+                            {
+                                GridCells.Add(hit.transform.gameObject);
+                                number++;
+                            }
                         }
                     }
                 }
@@ -73,34 +79,34 @@ public class SwipeManager : MonoBehaviour {
                 GridCells.Clear();
             } else
             {
-                for (int i = 0; i < GridCells.Count; i++)
-                {
-                    if (_comboStart != null)
+                    for (int i = 0; i < GridCells.Count; i++)
                     {
-                        if (_comboObjects.Count >= 1)
+                        if (_comboStart != null)
                         {
-                            if (GridCells[i].gameObject.transform.GetChild(0).gameObject.tag != _comboStart.tag)
+                            if (_comboObjects.Count >= 1)
                             {
-                                Debug.Log("Awh, you did not make a combo");
-                                ClearCombo();
-                                break;
+                                if (GridCells[i].gameObject.transform.GetChild(0).gameObject.tag != _comboStart.tag)
+                                {
+                                    Debug.Log("Awh, you did not make a combo");
+                                    ClearCombo();
+                                    break;
+                                }
+                                else
+                                {
+                                    Debug.Log("Good job, you made a combo ( ͡° ͜ʖ ͡°)");
+                                    _comboObjects.Add(GridCells[i].gameObject.transform.GetChild(0).gameObject);
+                                }
                             }
-                            else
+                        }
+                        else
+                        {
+                            _comboStart = GridCells[i].gameObject.transform.GetChild(0).gameObject;
+                            if (_comboObjects.Count == 0)
                             {
-                                Debug.Log("Good job, you made a combo ( ͡° ͜ʖ ͡°)");                          
-                                _comboObjects.Add(GridCells[i].gameObject.transform.GetChild(0).gameObject);
+                                _comboObjects.Add(_comboStart);
                             }
                         }
                     }
-                    else
-                    {
-                        _comboStart = GridCells[i].gameObject.transform.GetChild(0).gameObject;
-                        if (_comboObjects.Count == 0)
-                        {
-                            _comboObjects.Add(_comboStart);
-                        }
-                    }
-                }
                 _comboStart = null;
                 ComboCheck();
             }
@@ -123,23 +129,22 @@ public class SwipeManager : MonoBehaviour {
     }
 
     IEnumerator WaitForDestroy() {
-        List<GameObject> comboWithoutDupes = new HashSet<GameObject>(_comboObjects).ToList();
+       _comboWithoutDupes = new HashSet<GameObject>(_comboObjects).ToList();
 
-        if (comboWithoutDupes.Count >= 3)
+        if (_comboWithoutDupes.Count >= 3)
         {
-            for (int i = 0; i < comboWithoutDupes.Count; i++)
+            for (int i = 0; i < _comboWithoutDupes.Count; i++)
             {
-                _onDestroy = comboWithoutDupes[i].gameObject.GetComponent<OndestroyShape>();
+                _onDestroy = _comboWithoutDupes[i].gameObject.GetComponent<OndestroyShape>();
 
                 _onDestroy.OnDestroyShape();
             }
-            Debug.Log("help");
             yield return new WaitForSeconds(1);
 
-            for (int i = 0; i < comboWithoutDupes.Count; i++)
+            for (int i = 0; i < _comboWithoutDupes.Count; i++)
             {
-                Destroy(comboWithoutDupes[i].gameObject);
-                Score.score = Score.score + (100 * comboWithoutDupes.Count);
+                Destroy(_comboWithoutDupes[i].gameObject);
+                Score.score = Score.score + (100 * _comboWithoutDupes.Count);
             }
             ClearCombo();
         }
