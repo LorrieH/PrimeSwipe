@@ -138,13 +138,14 @@ public class SwipeManager : MonoBehaviour {
                 _onDestroy = _comboWithoutDupes[i].gameObject.GetComponent<OndestroyShape>();
 
                 _onDestroy.OnDestroyShape();
+
+                Score.score = Score.score + (100 * _comboWithoutDupes.Count);
             }
             yield return new WaitForSeconds(1);
 
             for (int i = 0; i < _comboWithoutDupes.Count; i++)
             {
                 Destroy(_comboWithoutDupes[i].gameObject);
-                Score.score = Score.score + (100 * _comboWithoutDupes.Count);
             }
             ClearCombo();
         }

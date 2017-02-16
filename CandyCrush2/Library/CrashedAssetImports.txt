@@ -1,1 +1,0 @@
-Assets/Animatie/cubeIdle.png
