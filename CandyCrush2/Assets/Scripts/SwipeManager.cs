@@ -141,7 +141,7 @@ public class SwipeManager : MonoBehaviour {
 
                 Score.score = Score.score + (100 * _comboWithoutDupes.Count);
             }
-            yield return new WaitForSeconds(0.7f);
+            yield return new WaitForSeconds(0.5f);
 
             for (int i = 0; i < _comboWithoutDupes.Count; i++)
             {
