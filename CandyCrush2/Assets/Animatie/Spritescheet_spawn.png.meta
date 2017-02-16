@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 4686dfbcb4b1d114fa2b10b9b32e28de
-timeCreated: 1487162652
+timeCreated: 1487232746
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -108,10 +108,10 @@ TextureImporter:
       name: Spritescheet_spawn_0
       rect:
         serializedVersion: 2
-        x: 213
-        y: 1314
-        width: 36
-        height: 36
+        x: 436
+        y: 1869
+        width: 43
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,10 +121,10 @@ TextureImporter:
       name: Spritescheet_spawn_1
       rect:
         serializedVersion: 2
-        x: 371
-        y: 1308
-        width: 48
-        height: 49
+        x: 727
+        y: 1857
+        width: 66
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: Spritescheet_spawn_2
       rect:
         serializedVersion: 2
-        x: 529
-        y: 1303
-        width: 60
-        height: 61
+        x: 111
+        y: 1539
+        width: 90
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: Spritescheet_spawn_3
       rect:
         serializedVersion: 2
-        x: 687
-        y: 1296
-        width: 72
-        height: 74
+        x: 401
+        y: 1528
+        width: 115
+        height: 117
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,10 +160,10 @@ TextureImporter:
       name: Spritescheet_spawn_4
       rect:
         serializedVersion: 2
-        x: 24
-        y: 1123
-        width: 85
-        height: 86
+        x: 691
+        y: 1516
+        width: 139
+        height: 141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,10 +173,10 @@ TextureImporter:
       name: Spritescheet_spawn_5
       rect:
         serializedVersion: 2
-        x: 183
-        y: 1116
-        width: 97
-        height: 100
+        x: 76
+        y: 1196
+        width: 162
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,10 +186,10 @@ TextureImporter:
       name: Spritescheet_spawn_6
       rect:
         serializedVersion: 2
-        x: 341
-        y: 1111
-        width: 109
-        height: 111
+        x: 366
+        y: 1186
+        width: 186
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,10 +199,10 @@ TextureImporter:
       name: Spritescheet_spawn_7
       rect:
         serializedVersion: 2
-        x: 504
-        y: 1110
-        width: 111
-        height: 114
+        x: 656
+        y: 1174
+        width: 210
+        height: 215
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,10 +212,10 @@ TextureImporter:
       name: Spritescheet_spawn_8
       rect:
         serializedVersion: 2
-        x: 666
-        y: 1108
-        width: 115
-        height: 117
+        x: 40
+        y: 856
+        width: 236
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: Spritescheet_spawn_9
       rect:
         serializedVersion: 2
-        x: 9
-        y: 939
-        width: 118
-        height: 121
+        x: 354
+        y: 868
+        width: 210
+        height: 215
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: Spritescheet_spawn_10
       rect:
         serializedVersion: 2
-        x: 171
-        y: 938
-        width: 122
-        height: 124
+        x: 668
+        y: 880
+        width: 186
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,10 +251,10 @@ TextureImporter:
       name: Spritescheet_spawn_11
       rect:
         serializedVersion: 2
-        x: 333
-        y: 936
-        width: 125
-        height: 128
+        x: 75
+        y: 585
+        width: 165
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,10 +264,10 @@ TextureImporter:
       name: Spritescheet_spawn_12
       rect:
         serializedVersion: 2
-        x: 499
-        y: 936
-        width: 121
-        height: 125
+        x: 368
+        y: 576
+        width: 182
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,10 +277,10 @@ TextureImporter:
       name: Spritescheet_spawn_13
       rect:
         serializedVersion: 2
-        x: 666
-        y: 940
-        width: 116
-        height: 119
+        x: 660
+        y: 567
+        width: 201
+        height: 205
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,62 +290,10 @@ TextureImporter:
       name: Spritescheet_spawn_14
       rect:
         serializedVersion: 2
-        x: 12
-        y: 776
-        width: 111
-        height: 114
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Spritescheet_spawn_15
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 778
-        width: 107
-        height: 109
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Spritescheet_spawn_16
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 780
-        width: 104
-        height: 105
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Spritescheet_spawn_17
-      rect:
-        serializedVersion: 2
-        x: 504
-        y: 779
-        width: 108
-        height: 107
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Spritescheet_spawn_18
-      rect:
-        serializedVersion: 2
-        x: 670
-        y: 778
-        width: 107
-        height: 110
+        x: 47
+        y: 251
+        width: 220
+        height: 225
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1dcbd6d1da725904d94b7a173325fa7c
-timeCreated: 1487170236
+timeCreated: 1487232729
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -105,10 +105,10 @@ TextureImporter:
       name: Spritescheet_Respawn_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 1590
-        width: 402
-        height: 411
+        x: 79
+        y: 1732
+        width: 234
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,10 +118,10 @@ TextureImporter:
       name: Spritescheet_Respawn_1
       rect:
         serializedVersion: 2
-        x: 551
-        y: 1588
-        width: 409
-        height: 416
+        x: 447
+        y: 1720
+        width: 259
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,10 +131,10 @@ TextureImporter:
       name: Spritescheet_Respawn_2
       rect:
         serializedVersion: 2
-        x: 1047
-        y: 1584
-        width: 413
-        height: 424
+        x: 815
+        y: 1708
+        width: 283
+        height: 290
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +144,10 @@ TextureImporter:
       name: Spritescheet_Respawn_3
       rect:
         serializedVersion: 2
-        x: 1540
-        y: 1583
-        width: 419
-        height: 426
+        x: 1183
+        y: 1697
+        width: 307
+        height: 315
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,10 +157,10 @@ TextureImporter:
       name: Spritescheet_Respawn_4
       rect:
         serializedVersion: 2
-        x: 62
-        y: 1090
-        width: 388
-        height: 397
+        x: 1567
+        y: 1700
+        width: 299
+        height: 308
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,10 +170,10 @@ TextureImporter:
       name: Spritescheet_Respawn_5
       rect:
         serializedVersion: 2
-        x: 575
-        y: 1104
-        width: 358
-        height: 368
+        x: 52
+        y: 1319
+        width: 289
+        height: 295
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: Spritescheet_Respawn_6
       rect:
         serializedVersion: 2
-        x: 1087
-        y: 1119
-        width: 329
-        height: 337
+        x: 437
+        y: 1323
+        width: 279
+        height: 287
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,10 +196,10 @@ TextureImporter:
       name: Spritescheet_Respawn_7
       rect:
         serializedVersion: 2
-        x: 1600
-        y: 1135
-        width: 300
-        height: 305
+        x: 828
+        y: 1336
+        width: 256
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: Spritescheet_Respawn_8
       rect:
         serializedVersion: 2
-        x: 121
-        y: 643
-        width: 268
-        height: 274
+        x: 1222
+        y: 1348
+        width: 230
+        height: 235
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,10 +222,10 @@ TextureImporter:
       name: Spritescheet_Respawn_9
       rect:
         serializedVersion: 2
-        x: 634
-        y: 658
-        width: 238
-        height: 243
+        x: 1614
+        y: 1361
+        width: 204
+        height: 209
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +235,10 @@ TextureImporter:
       name: Spritescheet_Respawn_10
       rect:
         serializedVersion: 2
-        x: 1148
-        y: 674
-        width: 206
-        height: 214
+        x: 107
+        y: 987
+        width: 178
+        height: 182
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,10 +248,10 @@ TextureImporter:
       name: Spritescheet_Respawn_11
       rect:
         serializedVersion: 2
-        x: 1661
-        y: 689
-        width: 175
-        height: 179
+        x: 499
+        y: 999
+        width: 153
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,10 +261,10 @@ TextureImporter:
       name: Spritescheet_Respawn_12
       rect:
         serializedVersion: 2
-        x: 182
-        y: 197
-        width: 145
-        height: 148
+        x: 892
+        y: 1012
+        width: 127
+        height: 131
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,10 +274,10 @@ TextureImporter:
       name: Spritescheet_Respawn_13
       rect:
         serializedVersion: 2
-        x: 695
-        y: 213
-        width: 114
-        height: 116
+        x: 1284
+        y: 1024
+        width: 103
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,10 +287,10 @@ TextureImporter:
       name: Spritescheet_Respawn_14
       rect:
         serializedVersion: 2
-        x: 1208
-        y: 228
-        width: 83
-        height: 85
+        x: 1676
+        y: 1037
+        width: 78
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +300,10 @@ TextureImporter:
       name: Spritescheet_Respawn_15
       rect:
         serializedVersion: 2
-        x: 1721
-        y: 243
-        width: 53
-        height: 54
+        x: 169
+        y: 663
+        width: 52
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

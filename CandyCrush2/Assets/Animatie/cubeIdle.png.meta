@@ -1,0 +1,773 @@
+fileFormatVersion: 2
+guid: 126d652751155fe4f9965860414e9ee1
+timeCreated: 1487235500
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cubeIdle_0
+    21300002: cubeIdle_1
+    21300004: cubeIdle_2
+    21300006: cubeIdle_3
+    21300008: cubeIdle_4
+    21300010: cubeIdle_5
+    21300012: cubeIdle_6
+    21300014: cubeIdle_7
+    21300016: cubeIdle_8
+    21300018: cubeIdle_9
+    21300020: cubeIdle_10
+    21300022: cubeIdle_11
+    21300024: cubeIdle_12
+    21300026: cubeIdle_13
+    21300028: cubeIdle_14
+    21300030: cubeIdle_15
+    21300032: cubeIdle_16
+    21300034: cubeIdle_17
+    21300036: cubeIdle_18
+    21300038: cubeIdle_19
+    21300040: cubeIdle_20
+    21300042: cubeIdle_21
+    21300044: cubeIdle_22
+    21300046: cubeIdle_23
+    21300048: cubeIdle_24
+    21300050: cubeIdle_25
+    21300052: cubeIdle_26
+    21300054: cubeIdle_27
+    21300056: cubeIdle_28
+    21300058: cubeIdle_29
+    21300060: cubeIdle_30
+    21300062: cubeIdle_31
+    21300064: cubeIdle_32
+    21300066: cubeIdle_33
+    21300068: cubeIdle_34
+    21300070: cubeIdle_35
+    21300072: cubeIdle_36
+    21300074: cubeIdle_37
+    21300076: cubeIdle_38
+    21300078: cubeIdle_39
+    21300080: cubeIdle_40
+    21300082: cubeIdle_41
+    21300084: cubeIdle_42
+    21300086: cubeIdle_43
+    21300088: cubeIdle_44
+    21300090: cubeIdle_45
+    21300092: cubeIdle_46
+    21300094: cubeIdle_47
+    21300096: cubeIdle_48
+    21300098: cubeIdle_49
+    21300100: cubeIdle_50
+    21300102: cubeIdle_51
+    21300104: cubeIdle_52
+    21300106: cubeIdle_53
+    21300108: cubeIdle_54
+    21300110: cubeIdle_55
+    21300112: cubeIdle_56
+    21300114: cubeIdle_57
+    21300116: cubeIdle_58
+    21300118: cubeIdle_59
+    21300120: cubeIdle_60
+    21300122: cubeIdle_61
+    21300124: cubeIdle_62
+    21300126: cubeIdle_63
+    21300128: cubeIdle_64
+    21300130: cubeIdle_65
+    21300132: cubeIdle_66
+    21300134: cubeIdle_67
+    21300136: cubeIdle_68
+    21300138: cubeIdle_69
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cubeIdle_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 7622
+        width: 560
+        height: 556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_1
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 7622
+        width: 564
+        height: 556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_2
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 7623
+        width: 564
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_3
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 7626
+        width: 571
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_4
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 7616
+        width: 568
+        height: 561
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_5
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 7626
+        width: 571
+        height: 551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_6
+      rect:
+        serializedVersion: 2
+        x: 3630
+        y: 7616
+        width: 572
+        height: 561
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_7
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 7630
+        width: 578
+        height: 542
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_8
+      rect:
+        serializedVersion: 2
+        x: 4830
+        y: 7630
+        width: 579
+        height: 540
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_9
+      rect:
+        serializedVersion: 2
+        x: 5424
+        y: 7630
+        width: 582
+        height: 540
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_10
+      rect:
+        serializedVersion: 2
+        x: 6030
+        y: 7630
+        width: 579
+        height: 540
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_11
+      rect:
+        serializedVersion: 2
+        x: 6631
+        y: 7632
+        width: 579
+        height: 537
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_12
+      rect:
+        serializedVersion: 2
+        x: 7231
+        y: 7632
+        width: 579
+        height: 544
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 7070
+        width: 584
+        height: 531
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_14
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 7070
+        width: 584
+        height: 531
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_15
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 7070
+        width: 580
+        height: 531
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_16
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 7070
+        width: 594
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_17
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 7071
+        width: 587
+        height: 529
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_18
+      rect:
+        serializedVersion: 2
+        x: 3022
+        y: 7071
+        width: 588
+        height: 523
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_19
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 7072
+        width: 588
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_20
+      rect:
+        serializedVersion: 2
+        x: 4222
+        y: 7071
+        width: 594
+        height: 523
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_21
+      rect:
+        serializedVersion: 2
+        x: 4822
+        y: 7072
+        width: 602
+        height: 528
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_22
+      rect:
+        serializedVersion: 2
+        x: 5422
+        y: 7074
+        width: 595
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_23
+      rect:
+        serializedVersion: 2
+        x: 6026
+        y: 7071
+        width: 588
+        height: 523
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_24
+      rect:
+        serializedVersion: 2
+        x: 6624
+        y: 7071
+        width: 590
+        height: 523
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_25
+      rect:
+        serializedVersion: 2
+        x: 7216
+        y: 7071
+        width: 598
+        height: 523
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_26
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 6506
+        width: 587
+        height: 534
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_27
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 6506
+        width: 584
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_28
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 6506
+        width: 586
+        height: 534
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_29
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 6496
+        width: 1187
+        height: 544
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_30
+      rect:
+        serializedVersion: 2
+        x: 3023
+        y: 6496
+        width: 593
+        height: 538
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_31
+      rect:
+        serializedVersion: 2
+        x: 3626
+        y: 6502
+        width: 583
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_32
+      rect:
+        serializedVersion: 2
+        x: 4223
+        y: 6502
+        width: 593
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_33
+      rect:
+        serializedVersion: 2
+        x: 4830
+        y: 6496
+        width: 579
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_34
+      rect:
+        serializedVersion: 2
+        x: 5424
+        y: 6495
+        width: 582
+        height: 546
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_35
+      rect:
+        serializedVersion: 2
+        x: 6032
+        y: 6495
+        width: 577
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_36
+      rect:
+        serializedVersion: 2
+        x: 6634
+        y: 6498
+        width: 582
+        height: 543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_37
+      rect:
+        serializedVersion: 2
+        x: 7232
+        y: 6498
+        width: 577
+        height: 542
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_38
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 5930
+        width: 568
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_39
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 5930
+        width: 572
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_40
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 5927
+        width: 592
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_41
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 5926
+        width: 571
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_42
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 5926
+        width: 578
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_43
+      rect:
+        serializedVersion: 2
+        x: 3034
+        y: 5920
+        width: 567
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_44
+      rect:
+        serializedVersion: 2
+        x: 3634
+        y: 5920
+        width: 564
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_45
+      rect:
+        serializedVersion: 2
+        x: 4234
+        y: 5923
+        width: 567
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cubeIdle_46
+      rect:
+        serializedVersion: 2
+        x: 4838
+        y: 5919
+        width: 560
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
