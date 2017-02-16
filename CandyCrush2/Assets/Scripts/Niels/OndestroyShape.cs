@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class OndestroyShape : MonoBehaviour {
+    AudioSource _audio;
 
     [SerializeField]
     private Animator _anim;
@@ -12,9 +13,13 @@ public class OndestroyShape : MonoBehaviour {
 
     void Awake() {
         _anim = GetComponent<Animator>();
+
+        _audio = GameObject.Find("AudioSource").GetComponent<AudioSource>();
     }
 
     public void OnDestroyShape() {
+        _audio.Stop();
+        _audio.Play();
         _anim.SetTrigger("death");
         //StartCoroutine(Wait());
     }
