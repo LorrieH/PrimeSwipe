@@ -9,39 +9,43 @@ public class SwipeManager : MonoBehaviour {
     private GameObject _comboStart;
     private List<GameObject> _comboObjects = new List<GameObject>();
     private List<GameObject> _comboWithoutDupes;
+    public static int Turns = 20;
 
     private void Raycast()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
-
-        if (Physics.Raycast(ray, out hit, 100))
+        if (Turns > 0)
         {
-            if (GridCells.Count != 0)
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit, 100))
             {
-                if (GridCells[GridCells.Count -1].gameObject != hit.transform.gameObject)
+                if (GridCells.Count != 0)
                 {
-                    int number = 0;
-                    for (int i = 0; i < GridCells.Count; i++)
+                    if (GridCells[GridCells.Count - 1].gameObject != hit.transform.gameObject)
                     {
-                        if(number < 1)
+                        int number = 0;
+                        for (int i = 0; i < GridCells.Count; i++)
                         {
-                            if (GridCells[i].gameObject == hit.transform.gameObject)
+                            if (number < 1)
                             {
-                                break;
-                            }
-                            else
-                            {
-                                GridCells.Add(hit.transform.gameObject);
-                                number++;
+                                if (GridCells[i].gameObject == hit.transform.gameObject)
+                                {
+                                    break;
+                                }
+                                else
+                                {
+                                    GridCells.Add(hit.transform.gameObject);
+                                    number++;
+                                }
                             }
                         }
                     }
                 }
-
-            } else if (GridCells.Count == 0)
-            {
-                GridCells.Add(hit.transform.gameObject);
+                else if (GridCells.Count == 0)
+                {
+                    GridCells.Add(hit.transform.gameObject);
+                }
             }
         }
     }
@@ -99,6 +103,7 @@ public class SwipeManager : MonoBehaviour {
     private void ComboCheck()
     {
         StartCoroutine(WaitForDestroy());
+        Turns--;
     }
 
     private void ClearCombo()

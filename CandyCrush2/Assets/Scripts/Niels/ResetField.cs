@@ -8,7 +8,11 @@ public class ResetField : MonoBehaviour {
 
     void OnMouseDown()
     {
-        StartCoroutine(ResetTime());
+        if (SwipeManager.Turns > 0)
+        {
+            StartCoroutine(ResetTime());
+        }
+
     }
 
     IEnumerator ResetTime() {
@@ -17,5 +21,6 @@ public class ResetField : MonoBehaviour {
         yield return new WaitForEndOfFrame();
         this.transform.localScale += new Vector3(0.1f, 0.1F, 0);
         TileReset = false;
+        SwipeManager.Turns--;
     }
 }
