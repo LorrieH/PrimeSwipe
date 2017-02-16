@@ -4,12 +4,21 @@ using UnityEngine;
 
 public class ResetField : MonoBehaviour {
 
+    AudioSource _audio;
+
     public bool TileReset = false;
+
+    void Start() {
+        _audio = GetComponent<AudioSource>();
+    }
 
     void OnMouseDown()
     {
         if (SwipeManager.Turns > 0)
         {
+            _audio.Stop();
+            _audio.Play();
+
             StartCoroutine(ResetTime());
         }
 
