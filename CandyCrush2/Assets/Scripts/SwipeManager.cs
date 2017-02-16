@@ -3,32 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-public enum SwipeDirection
-{
-    None = 0,
-    Left = 1,
-    Right = 2,
-    Up = 4,
-    Down = 8,
-
-    LeftDown = 9,
-    LeftUp = 5,
-    RightDown = 10,
-    RightUp = 6
-}
-
 public class SwipeManager : MonoBehaviour {
 
-    public GameObject obj;
     public List<GameObject> GridCells = new List<GameObject>();
     private GameObject _comboStart;
     private List<GameObject> _comboObjects = new List<GameObject>();
     private List<GameObject> _comboWithoutDupes;
-
-    private void InstantiateObj(int index)
-    {
-        Instantiate(obj, new Vector3(GridCells[index].transform.position.x, GridCells[index].transform.position.y, 0), Quaternion.identity);
-    }
 
     private void Raycast()
     {
