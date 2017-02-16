@@ -1,0 +1,722 @@
+fileFormatVersion: 2
+guid: 0a0af899e5eaa83459b56376088768b5
+timeCreated: 1487235727
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CircleIdle_0
+    21300002: CircleIdle_1
+    21300004: CircleIdle_2
+    21300006: CircleIdle_3
+    21300008: CircleIdle_4
+    21300010: CircleIdle_5
+    21300012: CircleIdle_6
+    21300014: CircleIdle_7
+    21300016: CircleIdle_8
+    21300018: CircleIdle_9
+    21300020: CircleIdle_10
+    21300022: CircleIdle_11
+    21300024: CircleIdle_12
+    21300026: CircleIdle_13
+    21300028: CircleIdle_14
+    21300030: CircleIdle_15
+    21300032: CircleIdle_16
+    21300034: CircleIdle_17
+    21300036: CircleIdle_18
+    21300038: CircleIdle_19
+    21300040: CircleIdle_20
+    21300042: CircleIdle_21
+    21300044: CircleIdle_22
+    21300046: CircleIdle_23
+    21300048: CircleIdle_24
+    21300050: CircleIdle_25
+    21300052: CircleIdle_26
+    21300054: CircleIdle_27
+    21300056: CircleIdle_28
+    21300058: CircleIdle_29
+    21300060: CircleIdle_30
+    21300062: CircleIdle_31
+    21300064: CircleIdle_32
+    21300066: CircleIdle_33
+    21300068: CircleIdle_34
+    21300070: CircleIdle_35
+    21300072: CircleIdle_36
+    21300074: CircleIdle_37
+    21300076: CircleIdle_38
+    21300078: CircleIdle_39
+    21300080: CircleIdle_40
+    21300082: CircleIdle_41
+    21300084: CircleIdle_42
+    21300086: CircleIdle_43
+    21300088: CircleIdle_44
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CircleIdle_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 3819
+        width: 240
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 3819
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_2
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 3819
+        width: 238
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_3
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 3819
+        width: 239
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_4
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 3819
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_5
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 3819
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 3512
+        width: 238
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_7
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 3513
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_8
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 3513
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_9
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 3512
+        width: 239
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_10
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 3512
+        width: 238
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_11
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 3513
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_12
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 3205
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 3205
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_14
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 3205
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_15
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 3205
+        width: 239
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_16
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 3205
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_17
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 3205
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2899
+        width: 238
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_19
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 2899
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_20
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 2899
+        width: 238
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_21
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 2899
+        width: 240
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_22
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 2899
+        width: 238
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_23
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 2899
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_24
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2591
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_25
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 2591
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_26
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 2591
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_27
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2591
+        width: 239
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_28
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 2591
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_29
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 2591
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_30
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2285
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 2285
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_32
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 2285
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_33
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 2285
+        width: 240
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_34
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 2285
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_35
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 2285
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_36
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1976
+        width: 238
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_37
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1977
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_38
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1976
+        width: 238
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_39
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1976
+        width: 239
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_40
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1976
+        width: 238
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_41
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1977
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_42
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1671
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_43
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1671
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CircleIdle_44
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1671
+        width: 238
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
