@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Niels.unity
-=======
-- path: Assets/Scenes/Menu.unity
->>>>>>> origin/master
+- path: Assets/Scenes/HowToPlay.unity
   isLoaded: 1
   isActive: 1
