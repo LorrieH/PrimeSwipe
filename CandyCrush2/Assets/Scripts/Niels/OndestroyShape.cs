@@ -18,8 +18,11 @@ public class OndestroyShape : MonoBehaviour {
     }
 
     public void OnDestroyShape() {
-        _audio.Stop();
-        _audio.Play();
+        if (!MuteButton.muted)
+        {
+            _audio.Stop();
+            _audio.Play();
+        }
         _anim.SetTrigger("death");
         //StartCoroutine(Wait());
     }

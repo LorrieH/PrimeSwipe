@@ -16,9 +16,11 @@ public class ResetField : MonoBehaviour {
     {
         if (SwipeManager.Turns > 0)
         {
-            _audio.Stop();
-            _audio.Play();
-
+            if (!MuteButton.muted)
+            {
+                _audio.Stop();
+                _audio.Play();
+            }
             StartCoroutine(ResetTime());
         }
 
