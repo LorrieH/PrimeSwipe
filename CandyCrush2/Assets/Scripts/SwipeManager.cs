@@ -11,6 +11,11 @@ public class SwipeManager : MonoBehaviour {
     private List<GameObject> _comboWithoutDupes;
     public static int Turns = 20;
 
+    void Start()
+    {
+        Turns = 20;
+    }
+
     private void Raycast()
     {
         if (Turns > 0)
