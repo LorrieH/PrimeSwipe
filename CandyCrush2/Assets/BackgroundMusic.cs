@@ -5,10 +5,19 @@ using UnityEngine;
 public class BackgroundMusic : MonoBehaviour {
 
     private AudioSource _source;
+    private static BackgroundMusic _instance;
 
-    void Start()
+    void Awake()
     {
         _source = GetComponent<AudioSource>();
+        if (!_instance)
+        {
+            _instance = this;
+        }
+        else
+            Destroy(this.gameObject);
+
+        DontDestroyOnLoad(this.gameObject);
     }
 
     void Update()

@@ -24,8 +24,11 @@ public class HowToPlay : MonoBehaviour {
         SceneManager.LoadScene(_sceneSelector);
     }
 
-    void OnMouseDown() {
-        StartGame();
+    void Update() {
+        if (Input.GetMouseButtonDown(0))
+        {
+            StartGame();
+        }
     }
 
     IEnumerator StartGameOnTime() {
