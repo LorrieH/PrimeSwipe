@@ -10,6 +10,7 @@ public class SwipeManager : MonoBehaviour {
     private List<GameObject> _comboObjects = new List<GameObject>();
     private List<GameObject> _comboWithoutDupes;
     public static int Turns = 20;
+    private int _bonusCombo;
 
     void Start()
     {
@@ -63,11 +64,14 @@ public class SwipeManager : MonoBehaviour {
         }
         if (Input.GetMouseButtonUp(0))
         {
-            if (GridCells.Count <= 2)
+            if(Turns > 0)
             {
-                GridCells.Clear();
-            } else
-            {
+                if (GridCells.Count <= 2)
+                {
+                    GridCells.Clear();
+                }
+                else
+                {
                     for (int i = 0; i < GridCells.Count; i++)
                     {
                         if (_comboStart != null)
@@ -96,10 +100,10 @@ public class SwipeManager : MonoBehaviour {
                             }
                         }
                     }
-                _comboStart = null;
-                ComboCheck();
-            }
-           
+                    _comboStart = null;
+                    ComboCheck();
+                }
+            }          
         }
     }
 
@@ -130,8 +134,17 @@ public class SwipeManager : MonoBehaviour {
                 _onDestroy.OnDestroyShape();
 
                 Score.score = Score.score + (100 * _comboWithoutDupes.Count);
+                _bonusCombo++;
             }
-            yield return new WaitForSeconds(0.5f);
+            if(_bonusCombo >= 13)
+            {
+                Turns++;
+                if(_bonusCombo >= 20)
+                {
+                    Score.score += 20000;
+                }
+            }
+            yield return new WaitForSeconds(0.1f);
 
             for (int i = 0; i < _comboWithoutDupes.Count; i++)
             {
