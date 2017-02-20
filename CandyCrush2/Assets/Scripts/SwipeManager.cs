@@ -120,6 +120,7 @@ public class SwipeManager : MonoBehaviour {
         _comboObjects.Clear();
         GridCells.Clear();
         _comboStart = null;
+        _bonusCombo = 0;
     }
 
     IEnumerator WaitForDestroy() {
